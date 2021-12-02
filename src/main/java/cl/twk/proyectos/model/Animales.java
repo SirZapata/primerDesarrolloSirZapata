@@ -1,3 +1,4 @@
+
 package cl.twk.proyectos.model;
 
 import javax.persistence.Entity;
