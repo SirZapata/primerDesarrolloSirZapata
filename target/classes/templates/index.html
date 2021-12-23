@@ -12,15 +12,22 @@
 	<div class="container-fluid">
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 			<!-- Brand/logo -->
-			<a class="navbar-brand" href="#">Inicio</a>
-
+			<a class="navbar-brand" th:href="@{/index}">Inicio</a>
 			<!-- Links -->
 			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{manga}">Estilo Manga</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{libre}">Estilo Libre</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{mangas}">Mangas</a>
+				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.instagram.com/v_i_c_t_o_r_r_r_r_r/?hl=es-la"
 						target="_blank">Instragram</a>
 				</li>
-
 				<li class="nav-item">
 					<a class="nav-link" th:href="@{/logout}">Cerrar sesión</a>
 				</li>
@@ -42,13 +49,13 @@
 			<!-- The slideshow -->
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img th:src="@{/img/2.jpg}" alt="spid">
+					<img th:src="@{/img/13.jpg}" alt="">
 				</div>
 				<div class="carousel-item">
-					<img th:src="@{/img/7.jpg}" alt="Chicago">
+					<img th:src="@{/img/11.gif}" alt="">
 				</div>
 				<div class="carousel-item">
-					<img th:src="@{/img/fondo.jpg}" alt="New York">
+					<img th:src="@{/img/25.jpg}" alt="">
 				</div>
 			</div>
 
@@ -103,10 +110,10 @@
 
 
 		<script>
-			$(document).ready(function(){
-				$(".animacion").click(function(){
+			$(document).ready(function () {
+				$(".animacion").click(function () {
 					var rutaImg = $(this).prop("src");
-					$("#principal").prop("src",rutaImg);
+					$("#principal").prop("src", rutaImg);
 				});
 			});
 		</script>

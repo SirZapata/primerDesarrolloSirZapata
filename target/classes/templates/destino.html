@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" th:href="@{/css/bootstrap/bootstrap.min.css}">
+	<link rel="stylesheet" th:href="@{/css/system.css}">
+	<script th:src="@{/js/jquery/jquery-3.6.0.js}"></script>
+	<script th:src="@{/js/bootstrap/bootstrap.min.js}"></script>
+
+
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!-- Brand/logo -->
+			<a class="navbar-brand" th:href="@{/index}">Inicio</a>
+
+			<!-- Links -->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{manga}">Estilo Manga</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{libre}">Estilo Libre</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{mangas}">Mangas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.instagram.com/v_i_c_t_o_r_r_r_r_r/?hl=es-la"
+						target="_blank">Instragram</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" th:href="@{/logout}">Cerrar sesión</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="jumbotron">
+			<h1 align="center">Destino</h1>
+		</div>
+		<div align="center" class="row m-6 centro">
+			<div class="col-lg-8 mb-8">
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/01.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/02.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/03.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/04.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/05.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/06.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/07.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/08.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/09.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/10.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/11.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/12.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/13.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/14.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/15.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/16.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/17.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/18.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/19.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/20.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/21.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/22.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/23.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/24.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/25.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/26.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/27.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/28.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/29.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/30.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/31.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/32.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/33.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/34.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/35.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/36.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/37.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/38.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/39.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/40.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/41.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/42.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/43.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/44.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/45.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/46.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/47.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/48.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/49.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/50.jpg}" alt="">
+				</a>
+				<a href="#" data-toggle="modal" data-target="#galeria">
+					<img id="01" class="w-100 mb-4 rounded animacion" th:src="@{img/destino/51.jpg}" alt="">
+				</a>
+			</div>
+
+		</div>
+
+
+		<!-- The Modal -->
+		<div class="modal fade" id="galeria">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content">
+					<!-- Modal body -->
+					<div class="modal-body">
+						<img id="principal" class="animacion" src="" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script>
+			$(document).ready(function () {
+				$(".animacion").click(function () {
+					var rutaImg = $(this).prop("src");
+					$("#principal").prop("src", rutaImg);
+				});
+			});
+		</script>
+
+</body>
+
+</html>
